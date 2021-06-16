@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/linear"
+    android:background="@drawable/bg_final_final"
+    tools:context="com.shadhinsoft.radiomama.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageButton
+        android:background="@null"
+        android:id="@+id/buttonPlay"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="121dp"
+        android:src="@drawable/play" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@+id/buttonPlay"
+        android:layout_alignStart="@+id/buttonPlay"
+        android:layout_marginLeft="100sp"
+        android:background="@drawable/massage"
+        android:id="@+id/chat"/>
+    <SeekBar
+        android:id="@+id/seekBar3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="69dp"
+        android:max="200"
+        android:progress="70"
+        android:layout_centerInParent="true"
+        android:progressDrawable="@drawable/style"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/about_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:soundEffectsEnabled="true"
+        android:text="About Us   "
+        android:background="@null"
+        android:textAllCaps="true"
+        android:textColor="#ff0000"
+        android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

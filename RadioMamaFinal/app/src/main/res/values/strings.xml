@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">RadioMAMA</string>
+
+    <string name="admob_app_id">ca-app-pub-4831915681642709~3054265026</string>
+
+    <string name="banner_ad_radio_header">ca-app-pub-4831915681642709/6289080259</string>
+    <string name="banner_ad_radio_footer">ca-app-pub-4831915681642709/4365500783</string>
+    <string name="banner_ad_about_header">ca-app-pub-4831915681642709/7873624667</string>
+    <string name="banner_ad_about_footer">ca-app-pub-4831915681642709/5973385481</string>
+
+    <string name="interstitial_full_screen_back_about">ca-app-pub-4831915681642709/4529152313</string>
+    <string name="interstitial_full_screen_go_web">ca-app-pub-4831915681642709/8059179696</string>
+
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="sms_alert"> বিঃ দ্রঃ আমাদের এসএমএস করতে আপনার অপারেটর থেকে ৪০ পয়সা চার্জ করা হবে ।</string>
+    <string name="help_line"> প্রয়োজনে  ফোন করুন ০১৮ ৬৬ ৬৬ ৮৮ ৫৫ </string>
+    <string name="help_line2"> www.facebook.com/myRadioMAMA </string>
+
+
+</resources>

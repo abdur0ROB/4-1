@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_chat"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RadioMAMA"
+        android:textAlignment="center"
+        android:textColor="#fffb17"
+        android:textStyle="bold|italic"
+        android:id="@+id/test1"
+        android:background="@null"
+        android:textSize="50sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Request Zone"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#0a83ba"
+        android:textSize="25dp"
+        android:id="@+id/test2"
+        android:layout_below="@+id/test1"
+        android:background="@null"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/sender_name"
+        android:layout_below="@+id/test2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10px"
+        android:background="#87000000"
+        android:hint="Name"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#00ff0d" />
+
+    <EditText
+        android:id="@+id/message_edit_text"
+        android:layout_below="@+id/sender_name"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:background="#6c000000"
+        android:paddingLeft="10px"
+        android:paddingTop="10px"
+        android:layout_marginTop="10px"
+        android:textColorHint="#FFFFFF"
+        android:hint="Write your comments...."
+        android:textColor="#33ff00" />
+
+    <Button
+        android:id="@+id/send_button"
+        android:layout_below="@+id/message_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="29dp"
+        android:textStyle="bold"
+        android:textColor="#ff05d9"
+        android:background="#9c69dccb"
+        android:text="Send SMS" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sms_alert"
+        android:textAlignment="center"
+        android:textColor="#001aff"
+        android:layout_marginTop="30dp"
+        android:id="@+id/sms_alert"
+        android:background="@null"
+        android:layout_below="@+id/send_button"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/help_line"
+        android:textAlignment="center"
+        android:textColor="#001aff"
+        android:layout_marginTop="10dp"
+        android:id="@+id/sms_helpline"
+        android:background="@null"
+        android:layout_below="@+id/sms_alert"
+        android:textSize="16sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/help_line2"
+        android:textAlignment="center"
+        android:textColor="#001aff"
+        android:layout_marginTop="20dp"
+        android:id="@+id/sms_alert2"
+        android:background="@null"
+        android:layout_below="@+id/sms_helpline"
+        android:textSize="20sp"
+        android:textAllCaps="false"/>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViewReqFooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_about_footer">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
